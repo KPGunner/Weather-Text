@@ -15,6 +15,3 @@ forecast = soup.find(class_='col-sm-10 forecast-text')
 message = f'The temperature right now is {temp.text}. Today it will be: {forecast.text}'
 
 #print(message)
-
-
-
